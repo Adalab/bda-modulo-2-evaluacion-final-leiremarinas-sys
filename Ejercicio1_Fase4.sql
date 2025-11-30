@@ -2,13 +2,13 @@
 -- Ejercicio 1 FASE 4 CONSULTAS
 -- ¿Cuántas películas tienen una duración superior a 120 minutos?
 
-SELECT Titulo as Peliculas_Largas
+SELECT SUM(id) as Total_peliculas_largas
 FROM PELICULAS
 WHERE duración>120;
 
 -- ¿Cuántas películas tienen contenido adulto?
 
-SELECT Titulo as Contenido_adultos
+SELECT SUM(id) as Contenido_adultos
 FROM peliculas
 WHERE contenido_adultos=1;
 
