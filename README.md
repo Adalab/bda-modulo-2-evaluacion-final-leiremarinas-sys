@@ -38,3 +38,8 @@ Actualización de Datos: Se ejecutó una sentencia UPDATE masiva (utilizando exe
 Tras la corrección de la columna, se añadió una consulta adicional y específica desde Python para responder a la query faltante: "¿Cuántas películas incluyen subtítulos en español?". Esta consulta utiliza el operador LIKE para buscar la subcadena 'es' en la nueva columna Subtitulos.Resultados: Los resultados del análisis son cargados y presentados como DataFrames de Pandas dentro del notebook.
 
 
+🚀 Ejercicio 2: Evaluación Final - Módulo 2
+
+Diferentes queries sobre la Base de Datos Sakila
+
+
